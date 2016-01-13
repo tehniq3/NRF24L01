@@ -1,10 +1,8 @@
 /* YourDuinoStarter Example:RECEIVE nRF24L01 Joystick data to control Pan Tilt Servos Over Radio.
    QUESTIONS? terry@yourduino.com
  -WHAT IT DOES:
-  -Receives Joystick Analog Values over a nRF24L01 Radio Link, using the Radiohead library.
-  - Sends Joystick position to 2 servos, usually X,Y to pan-tilt arrangement - NO 
-  - TODO! Send the Joystick push-down click to turn Laser on and off - NO
- - SEE the comments after "//" on each line below
+  -Receives Joystick Analog Values & the Joystick push-down click over a nRF24L01 Radio Link, using the Radiohead library.
+  - SEE the comments after "//" on each line below
  - CONNECTIONS: nRF24L01 Modules See:
  http://arduino-info.wikispaces.com/Nrf24L01-2.4GHz-HowTo
    1 - GND
@@ -19,6 +17,9 @@
 
    -V2.00 7/12/14 by Noah King
    Based on examples at http://www.airspayce.com/mikem/arduino/RadioHead/index.html
+   
+   this sketch by Nicu FLORICA (niq_ro) from http://www.tehnic.go.ro
+   & http://www.arduinotehniq.com/
 */
 
 /*-----( Import needed libraries )-----*/
@@ -133,5 +134,5 @@ void loop()
     }// end 'IF Received data Available
   }// end 'IF RadioManager Available
   
-    delay(25);                      // wait for the servo to reach the position
+   // delay(25);                      // wait for the servo to reach the position
 }// END Main LOOP
