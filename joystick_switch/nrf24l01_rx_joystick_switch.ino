@@ -43,10 +43,10 @@
 //#define ServoVerticalPIN   5
 //#define LaserPIN           6
 
-#define ServoMIN_H  0  // Don't go to very end of servo travel
-#define ServoMAX_H  160 // which may not be all the way from 0 to 180. 
-#define ServoMIN_V  0  // Don't go to very end of servo travel
-#define ServoMAX_V  140 // which may not be all the way from 0 to 180. 
+//#define ServoMIN_H  0  // Don't go to very end of servo travel
+//#define ServoMAX_H  160 // which may not be all the way from 0 to 180. 
+//#define ServoMIN_V  0  // Don't go to very end of servo travel
+//#define ServoMAX_V  140 // which may not be all the way from 0 to 180. 
 
 
 /*-----( Declare objects )-----*/
