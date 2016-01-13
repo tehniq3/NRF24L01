@@ -1,8 +1,7 @@
 /* YourDuinoStarter Example: TRANSMIT nRF24L01 Joystick data to Pan Tilt Over Radio.
    QUESTIONS? terry@yourduino.com
- - WHAT IT DOES: Reads Joystick Analog Values on A4, A5 and transmits
-   them over a nRF24L01 Radio Link, using the Radiohead library.
- - TODO! Send the Joystick push-down click to turn Laser on and off  - NO
+ - WHAT IT DOES: Reads Joystick Analog Values on A4, A5 and the Joystick push-down click on D4 
+   and transmits them over a nRF24L01 Radio Link, using the Radiohead library.
  - SEE the comments after "//" on each line below
  - CONNECTIONS: nRF24L01 Modules See:
  http://arduino-info.wikispaces.com/Nrf24L01-2.4GHz-HowTo
@@ -25,6 +24,9 @@
 
    -V2.00 7/12/14  by Noah King
    Based on examples at http://www.airspayce.com/mikem/arduino/RadioHead/index.html
+   
+   - this version by Nicu FLORICA (niq_ro) form http://www.tehnic.go.ro
+   & http://www.arduinotehniq.com/
 */
 
 /*-----( Import needed libraries )-----*/
