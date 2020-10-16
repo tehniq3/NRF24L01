@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEOWFIX</title>
+    <link rel="stylesheet" href="lib/onsenui/onsenui.css">
+    <link rel="stylesheet" href="lib/onsenui/onsen-css-components.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
+    <script src="lib/onsenui/onsenui.min.js"></script>
+    <script src="lib/jquery/jquery-3.5.1.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <ons-page>
+
+        <ons-toolbar>
+            <div class="center"
+                style="color: rgb(255, 255, 255); font-weight: bold; font-size: large;font-family: 'Mitr', sans-serif;">
+                M E O W F I X </div>
+            <div class="left"
+                style="color: rgb(255, 255, 255); font-weight: bold; font-size: large;font-family: 'Mitr', sans-serif;">
+                BACK </div>    
+        </ons-toolbar>
+
+        <ons-tabbar swipeable position="auto">
+            <ons-tab page="category/Home.html" label="Home" icon="md-home, material:md-home">
+            </ons-tab>
+
+            <ons-tab page="category/search.html" label="Search" icon="md-search">
+            </ons-tab>
+
+            <ons-tab page="views/favorite.html" label="Favorite" icon="md-thumb-up">
+            </ons-tab>
+
+            <ons-tab page="views/profile.html" label="Profile" icon="md-account-circle" style="color: aqua;">
+            </ons-tab>
+        </ons-tabbar>
+
+    </ons-page>
+
+</body>
+
+</html>
